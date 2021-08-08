@@ -1,0 +1,83 @@
+/********************/
+*{
+    margin: 0;
+    padding: 0;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body
+{
+    font-family: sans-serif;
+}
+#navbar
+{
+    width: 100%;
+  
+}
+.welcome
+{
+   font-weight: 600;
+   color:#fff;
+}
+.palette
+{
+    padding: 5px;
+    border: 1px solid rgb(211, 211, 243);
+    
+}
+
+.social-icons p
+{
+    font-weight: 500;
+    text-decoration: underline;
+    color: white;
+}
+.social-icons i
+{
+    font-weight: 500;
+    text-decoration: underline;
+    color: white;
+}
+.social-icons img
+{
+ width: 35px;
+ padding: 5px;
+
+}
+
+.social-icons img
+{
+    
+    transition: 0.5s;/*****une transition de 0.5s*****/
+}
+
+/********faire monte les icone au survol*********/
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/****************Cours*****************/
+.cours
+{
+    padding: 5px;
+    
+}
+.cours img
+{
+    width: 350px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/****************Cours*****************/
